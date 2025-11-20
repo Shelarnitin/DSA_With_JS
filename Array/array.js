@@ -11,16 +11,16 @@ console.log(findNumber([1,2,3,4,5,6], 5))
 console.log(findNumber([1,2,3,4,5,6], 9))
 
 
-// function printFirstAndLast(arr){
-//     if(arr.length === 0) {
-//         console.log("Array is empty");
-//         return;
-//     }
-//     console.log("First element:", arr[0]);
-//     console.log("Last element:", arr[arr.length - 1]);
-// }
-// printFirstAndLast([10,20,30,40,50]);
-// printFirstAndLast([]); // Array is empty   
+function printFirstAndLast(arr){
+    if(arr.length === 0) {
+        console.log("Array is empty");
+        return;
+    }
+    console.log("First element:", arr[0]);
+    console.log("Last element:", arr[arr.length - 1]);
+}
+printFirstAndLast([10,20,30,40,50]);
+printFirstAndLast([]); // Array is empty   
 
 // // **************************LINEAR SEARCH********************************
 // // ********************FIND if an element exsist**************************
