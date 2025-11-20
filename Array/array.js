@@ -1,13 +1,14 @@
-// function findNumber(arr, target){
-//     for(let i = 0; i < arr.length; i++){
-//         if(arr[i] === target) {
-//             return true;
-//         }
-//     }
-//     return false;
-// }
-// console.log(findNumber([1,2,3,4,5], 3)); // true
-// console.log(findNumber([1,2,3,4,5], 6)); // false
+function findNumber(arr, target){
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i] === target){
+            return true;
+        }
+    }
+    return false;
+}
+
+console.log(findNumber([1,2,3,4,5,6], 5))
+console.log(findNumber([1,2,3,4,5,6], 9))
 
 
 // function printFirstAndLast(arr){
