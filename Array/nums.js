@@ -1,0 +1,17 @@
+var removeDuplicates = function(nums) {
+    if (nums.length === 0) return 0;
+
+    let k = 1;
+    for (let i = 1; i < nums.length; i++) {
+        if (nums[i] !== nums[k - 1]) {
+            nums[k] = nums[i];
+            k++;
+        }
+    }
+
+    console.log("Unique Count:", k);
+    console.log("Modified Array:", nums);
+    return k;
+};
+
+console.log(removeDuplicates([1,1,2,2,3]));
