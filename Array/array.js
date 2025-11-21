@@ -7,8 +7,8 @@ function findNumber(arr, target){
     return false;
 }
 
-console.log(findNumber([1,2,3,4,5,6], 5))
-console.log(findNumber([1,2,3,4,5,6], 9))
+// console.log(findNumber([1,2,3,4,5,6], 5))
+// console.log(findNumber([1,2,3,4,5,6], 9))
 
 
 function printFirstAndLast(arr){
@@ -19,8 +19,8 @@ function printFirstAndLast(arr){
     console.log("First element:", arr[0]);
     console.log("Last element:", arr[arr.length - 1]);
 }
-printFirstAndLast([10,20,30,40,50]);
-printFirstAndLast([]); // Array is empty   
+// printFirstAndLast([10,20,30,40,50]);
+// printFirstAndLast([]); // Array is empty   
 
 // // **************************LINEAR SEARCH********************************
 // // ********************FIND if an element exsist**************************
@@ -94,3 +94,14 @@ printFirstAndLast([]); // Array is empty
 //     return max;
 // }
 // console.log(maxElement([3,4,6,2,7,9,]))
+
+
+/**************** */
+
+Array.prototype.last = function() {
+  if (this.length === 0) {
+    return -1;
+  }
+  return this[this.length - 1];
+};
+console.log(Array.prototype.last)
