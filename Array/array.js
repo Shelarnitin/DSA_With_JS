@@ -37,17 +37,17 @@ console.log(linearSearch(arr3,60))  // -1
 
 // /***************Binary Search*************************/
 // /****************Works only on sorted array***********/
-// function binarySearch(arr, target) {
-//     let low = 0, high = arr.length -1;
-//     while(low <= high) {
-//         let mid = Math.floor((low + high) / 2);
-//         if(arr[mid] === target) return mid;
-//         else if(arr[mid] < target) low = mid + 1;
-//         else high = mid -1;
-//     }
-//     return -1;
-// }
-// console.log(binarySearch([10,20,30,40,50], 40)) // 3
+function binarySearch(arr, target) {
+    let low = 0, high = arr.length -1;
+    while(low <= high) {
+        let mid = Math.floor((low + high) / 2);
+        if(arr[mid] === target) return mid;
+        else if(arr[mid] < target) low = mid + 1;
+        else high = mid -1;
+    }
+    return -1;
+}
+console.log(binarySearch([10,20,30,40,50], 40)) // 3
 
 
 /************Reversing********************/
