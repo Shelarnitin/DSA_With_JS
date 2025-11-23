@@ -67,11 +67,11 @@ console.log(reverseArray([10,20,30,40,50]))
 
 // /************Insert element at kth position**************/
 
-// function insertAt(arr,k,value){
-//     arr.splice(k,0,value);
-//     return arr;
-// }
-// console.log(insertAt([10,20,30,40],2,25))
+function insertAt(arr,k,value){
+    arr.splice(k,0,value);
+    return arr;
+}
+console.log(insertAt([10,20,30,40],2,25))
 
 
 // /************Delete element at kth position*************/
