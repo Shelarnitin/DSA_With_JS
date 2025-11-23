@@ -76,11 +76,11 @@ console.log(insertAt([10,20,30,40],2,25))
 
 // /************Delete element at kth position*************/
 
-// function deleteAt(arr,k){
-//     arr.splice(k,1);
-//     return arr;
-// }
-// console.log(deleteAt([10,20,30,40],1))
+function deleteAt(arr,k){
+    arr.splice(k,1);
+    return arr;
+}
+console.log(deleteAt([10,20,30,40],1))
 
 /*************Find maximum element*******************/
 
