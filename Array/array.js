@@ -84,16 +84,16 @@ console.log(deleteAt([10,20,30,40],1))
 
 /*************Find maximum element*******************/
 
-// function maxElement(arr){
-//     let max = arr[0];
-//     for(let i=1;i<arr.length;i++){
-//         if(arr[i]>max){
-//             max=arr[i];
-//         }
-//     }
-//     return max;
-// }
-// console.log(maxElement([3,4,6,2,7,9,]))
+function maxElement(arr){
+    let max = arr[0];
+    for(let i=1;i<arr.length;i++){
+        if(arr[i]>max){
+            max=arr[i];
+        }
+    }
+    return max;
+}
+console.log(maxElement([3,4,6,2,7,9,]))
 
 
 /**************** */
