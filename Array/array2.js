@@ -13,17 +13,17 @@ console.log(findNumber([1,2,3,4,5],45))
 
 // Q print the first and last element of the array
 
-// function firstAndLast(arr){
-//     // if(arr.length===0){
-//     //     console.log("array is empty")
-//     //     return
-//     // }
-//     console.log("first element is",arr[0])
-//     console.log("Middle element is",arr[Math.floor(arr.length/2)])
-//     console.log("last element is",arr[arr.length-1])
-// }
-// firstAndLast([10,20,34,44,45])
-// firstAndLast([])
+function firstAndLast(arr){
+    // if(arr.length===0){
+    //     console.log("array is empty")
+    //     return
+    // }
+    console.log("first element is",arr[0])
+    console.log("Middle element is",arr[Math.floor(arr.length/2)])
+    console.log("last element is",arr[arr.length-1])
+}
+firstAndLast([10,20,34,44,45])
+firstAndLast([])
 
 //******************LINEAR SEARCH********************/
 // **********Find if an element exists***************
