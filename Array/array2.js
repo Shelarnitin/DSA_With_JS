@@ -28,17 +28,17 @@ firstAndLast([])
 //******************LINEAR SEARCH********************/
 // **********Find if an element exists***************
 
-// let arr = [ 1,2,3,4,5,6]
-// function lenearsearch(arr,target){
-//     for(let i=0;i<arr.length;i++){
-//         if(arr[i]===target){
-//             return true
-//         }
-//     }
-//     return false
-// }
-// console.log(lenearsearch(arr,3))
-// console.log(lenearsearch(arr,31))
+let arr = [ 1,2,3,4,5,6]
+function lenearsearch(arr,target){
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]===target){
+            return true
+        }
+    }
+    return false
+}
+console.log(lenearsearch(arr,3))
+console.log(lenearsearch(arr,31))
 
 
 //************Binary search --> works only on sorted array******/
