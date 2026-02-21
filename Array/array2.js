@@ -3,42 +3,46 @@
 function findNumber(arr,target){
     for(let i=0;i<arr.length;i++){
         if(arr[i] === target){
-            return 'Number Exist'
+            return 'number Exist'
         }
     }
-    return 'Number dosen`t Exist'
+    return 'Number not exist'
 }
-console.log(findNumber([1,2,3,4,5],45))
+console.log(findNumber([1,2,3,4,5],55))
+
+
+
+
 
 
 // Q print the first and last element of the array
 
-function firstAndLast(arr){
-    // if(arr.length===0){
-    //     console.log("array is empty")
-    //     return
-    // }
-    console.log("first element is",arr[0])
-    console.log("Middle element is",arr[Math.floor(arr.length/2)])
-    console.log("last element is",arr[arr.length-1])
-}
-firstAndLast([10,20,34,44,45])
-firstAndLast([])
+// function firstAndLast(arr){
+//     // if(arr.length===0){
+//     //     console.log("array is empty")
+//     //     return
+//     // }
+//     console.log("first element is",arr[0])
+//     console.log("Middle element is",arr[Math.floor(arr.length/2)])
+//     console.log("last element is",arr[arr.length-1])
+// }
+// firstAndLast([10,20,34,44,45])
+// firstAndLast([])
 
 //******************LINEAR SEARCH********************/
 // **********Find if an element exists***************
 
-let arr = [ 1,2,3,4,5,6]
-function lenearsearch(arr,target){
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]===target){
-            return true
-        }
-    }
-    return false
-}
-console.log(lenearsearch(arr,3))
-console.log(lenearsearch(arr,31))
+// let arr = [ 1,2,3,4,5,6]
+// function lenearsearch(arr,target){
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]===target){
+//             return true
+//         }
+//     }
+//     return false
+// }
+// console.log(lenearsearch(arr,3))
+// console.log(lenearsearch(arr,31))
 
 
 //************Binary search --> works only on sorted array******/
