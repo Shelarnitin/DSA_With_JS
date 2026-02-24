@@ -1,14 +1,14 @@
 // check is a number exist in an array (0(n))
 
-function findNumber(arr,target){
-    for(let i=0;i<arr.length;i++){
-        if(arr[i] === target){
-            return 'number Exist'
-        }
-    }
-    return 'Number not exist'
-}
-console.log(findNumber([1,2,3,4,5],55))
+// function findNumber(arr,target){
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i] === target){
+//             return 'number Exist'
+//         }
+//     }
+//     return 'Number not exist'
+// }
+// console.log(findNumber([1,2,3,4,5],55))
 
 
 
