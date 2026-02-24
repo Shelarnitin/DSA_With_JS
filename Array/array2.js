@@ -17,14 +17,14 @@
 
 // Q print the first and last element of the array
 
-function firstAndLast(arr){
-    if(arr.length === 0){
-        console.log("Empty array")
-        return
-    }
-    console.log('First Element is = ',arr[0])
-    console.log('last Element is = ',arr[arr.length-1])
-}
+// function firstAndLast(arr){
+//     if(arr.length === 0){
+//         console.log("Empty array")
+//         return
+//     }
+//     console.log('First Element is = ',arr[0])
+//     console.log('last Element is = ',arr[arr.length-1])
+// }
 // console.log(firstAndLast([1,2,3,4,5]))
 // console.log(firstAndLast([]))
 
