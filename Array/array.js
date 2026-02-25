@@ -98,10 +98,10 @@ console.log(maxElement([3,4,6,2,7,9,]))
 
 /**************** */
 
-Array.prototype.last = function() {
-  if (this.length === 0) {
-    return -1;
-  }
-  return this[this.length - 1];
-};
-console.log(Array.prototype.last)
+// Array.prototype.last = function() {
+//   if (this.length === 0) {
+//     return -1;
+//   }
+//   return this[this.length - 1];
+// };
+// console.log(Array.prototype.last)
